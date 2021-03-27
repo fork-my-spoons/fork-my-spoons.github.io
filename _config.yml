@@ -46,7 +46,7 @@ color_scheme: dark
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: 
+ga_tracking: G-942WC0315Y
 
 compress_html:
   clippings: all
