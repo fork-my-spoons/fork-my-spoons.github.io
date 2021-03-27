@@ -1,0 +1,59 @@
+I"@<h1 id="gitlab-merge-requests">GitLab Merge Requests</h1>
+
+<p align="center">
+  <a href="https://github.com/fork-my-spoons/gitlab-merge-requests.spoon/actions">
+    <img alt="Build" src="https://github.com/fork-my-spoons/gitlab-merge-requests.spoon/workflows/build/badge.svg" /></a>
+  <a href="https://github.com/fork-my-spoons/gitlab-merge-requests.spoon/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/fork-my-spoons/gitlab-merge-requests.spoon" /></a>
+  <a href="https://github.com/fork-my-spoons/gitlab-merge-requests.spoon/releases">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/fork-my-spoons/gitlab-merge-requests.spoon/total" /></a>
+</p>
+
+<p>A menu bar app, showing a list of merge requests assigned to a user to review:</p>
+
+<p align="center">
+  <img src="https://github.com/fork-my-spoons/gitlab-merge-requests.spoon/raw/master/screenshots/screenshot.png" />
+</p>
+
+<p>Each item in the list is showing following information:</p>
+
+<p align="center">
+  <img src="https://github.com/fork-my-spoons/gitlab-merge-requests.spoon/raw/master/screenshots/details.png" />
+</p>
+
+<h1 id="installation">Installation</h1>
+
+<ul>
+  <li>install <a href="http://www.hammerspoon.org/">Hammerspoon</a> - a powerfull automation tool for OS X
+    <ul>
+      <li>
+        <p>Manually:</p>
+
+        <p>Download the [latest release], and drag Hammerspoon.app from your Downloads folder to Applications.</p>
+      </li>
+      <li>
+        <p>Homebrew:</p>
+
+        <p><code class="language-plaintext highlighter-rouge">brew install hammerspoon --cask</code></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>download <a href="https://github.com/fork-my-spoons/gitlab-merge-requests.spoon/releases/download/v1.0/gitlab-merge-requests.spoon.zip">gitlab-merge-requests.spoon</a>, unzip and double click on a .spoon file. It will be installed under <code class="language-plaintext highlighter-rouge">~/.hammerspoon/Spoons</code> folder.</p>
+  </li>
+  <li>open ~/.hammerspoon/init.lua and add the following snippet, adding your parameters:</li>
+</ul>
+
+<div class="language-lua highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- GitLab</span>
+<span class="n">hs</span><span class="p">.</span><span class="n">loadSpoon</span><span class="p">(</span><span class="s1">'gitlab-merge-requests'</span><span class="p">)</span>
+<span class="n">spoon</span><span class="p">[</span><span class="s1">'gitlab-merge-requests'</span><span class="p">]:</span><span class="n">setup</span><span class="p">({</span>
+    <span class="n">gitlab_host</span> <span class="o">=</span> <span class="s1">'https://gitlab.com'</span><span class="p">,</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="s1">'your_token'</span><span class="p">,</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="s1">'gitlab_username'</span> 
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>To generate a token, go to: https://gitlab.com/-/profile/personal_access_tokens, select <strong>api</strong> scope and type a name.</p>
+
+<p>This app uses icons, to properly display them, install a <a href="https://github.com/AT-UI/feather-font">feather-font</a> by <a href="https://github.com/AT-UI/feather-font/raw/master/src/fonts/feather.ttf">downloading</a> this .ttf font and installing it.</p>
+:ET

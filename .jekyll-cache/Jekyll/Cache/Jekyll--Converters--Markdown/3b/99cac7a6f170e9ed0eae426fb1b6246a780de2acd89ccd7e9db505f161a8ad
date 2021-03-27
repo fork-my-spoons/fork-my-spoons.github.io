@@ -1,0 +1,45 @@
+I"<	<h1 id="people-in-space">people in space</h1>
+
+<p align="center">
+  <a href="https://github.com/fork-my-spoons/people-in-space.spoon/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/fork-my-spoons/people-in-space.spoon" /></a>
+  <a href="https://github.com/fork-my-spoons/people-in-space.spoon/releases">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/fork-my-spoons/people-in-space.spoon/total" /></a>
+</p>
+
+<p>Shows number of people currently in space:</p>
+
+<p align="center">
+  <img src="https://github.com/fork-my-spoons/people-in-space.spoon/raw/master/screenshots/screenshot.png" />
+</p>
+
+<h1 id="installation">Installation</h1>
+
+<ul>
+  <li>install <a href="http://www.hammerspoon.org/">Hammerspoon</a> - a powerfull automation tool for OS X
+    <ul>
+      <li>
+        <p>Manually:</p>
+
+        <p>Download the [latest release], and drag Hammerspoon.app from your Downloads folder to Applications.</p>
+      </li>
+      <li>
+        <p>Homebrew:</p>
+
+        <p><code class="language-plaintext highlighter-rouge">brew install hammerspoon --cask</code></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>download <a href="https://github.com/fork-my-spoons/people-in-space.spoon/releases/download/v1.0/people-in-space.spoon.zip">people-in-space.spoon</a>, unzip and double click on a .spoon file. It will be installed under <code class="language-plaintext highlighter-rouge">~/.hammerspoon/Spoons</code> folder.</p>
+  </li>
+  <li>open ~/.hammerspoon/init.lua and add the following snippet, adding your parameters:</li>
+</ul>
+
+<div class="language-lua highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- people in space</span>
+<span class="n">hs</span><span class="p">.</span><span class="n">loadSpoon</span><span class="p">(</span><span class="s1">'people-in-space'</span><span class="p">)</span>
+<span class="n">spoon</span><span class="p">[</span><span class="s1">'people-in-space'</span><span class="p">]:</span><span class="n">start</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>This app uses icons, to properly display them, install a <a href="https://github.com/AT-UI/feather-font">feather-font</a> by <a href="https://github.com/AT-UI/feather-font/raw/master/src/fonts/feather.ttf">downloading</a> this .ttf font and installing it.</p>
+:ET
