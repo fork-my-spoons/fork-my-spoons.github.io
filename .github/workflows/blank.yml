@@ -22,15 +22,13 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run a one-line script
         run: bash ./.github/workflows/get_content.sh
-      - name: switching from HTTPS to SSH
-        run: git remote set-url origin ${{ secrets.ssh }}
-      - name: check for changes
-        run: git status
-      - name: stage changed files
-        run: git add .
-      - name: commit changed files
-        run: git commit -m "update content"
-      - name: fetch from master
-        run: git fetch origin master
-      - name: push code to master
-        run: git push origin HEAD:master
+      - name: Commit files # transfer the new html files back into the repository
+        run: |
+         git config --local user.name "streetturtle"
+         git add -A
+         git commit -m "Update content"
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         force: true
