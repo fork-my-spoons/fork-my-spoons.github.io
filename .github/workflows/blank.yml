@@ -21,7 +21,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Run a one-line script
-        run: sh ./.github/workflows/get_content.sh
+        run: bash ./.github/workflows/get_content.sh
       - name: switching from HTTPS to SSH
         run: git remote set-url origin ${{ secrets.ssh }}
       - name: check for changes
