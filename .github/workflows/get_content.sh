@@ -1,9 +1,7 @@
-
 declare -a arr=("people-in-space"
                 "jira-issues"
                 "github-activity"
-                "gitlab-merge-requests"
-                )
+                "gitlab-merge-requests")
 
 for i in "${arr[@]}"
 do
