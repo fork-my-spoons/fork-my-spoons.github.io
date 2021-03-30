@@ -3,6 +3,11 @@ layout: default
 title: spotify mini player
 nav_order: 2
 ---
+---
+layout: default
+title: spotify mini player
+nav_order: 2
+---
 # Spotify
 
 A menubar app which shows currely playing song on Spotify, when clicked shows following menu, with details of the track:

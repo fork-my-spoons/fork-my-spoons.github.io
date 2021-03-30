@@ -3,6 +3,11 @@ layout: default
 title: spotify current song
 nav_order: 2
 ---
+---
+layout: default
+title: spotify current song
+nav_order: 2
+---
 # Spotify Mini Player
 
 A menu bar app which shows currently playing song on Spotify:

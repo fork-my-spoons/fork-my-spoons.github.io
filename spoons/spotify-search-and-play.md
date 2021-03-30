@@ -3,6 +3,11 @@ layout: default
 title: spotify search and play
 nav_order: 2
 ---
+---
+layout: default
+title: spotify search and play
+nav_order: 2
+---
 # Spotify Search and Play
 
 A spotlight-like search for spotify, allow searching albums, artists, playlists and tracks and playing the selected item on Spotify client for macOS:
