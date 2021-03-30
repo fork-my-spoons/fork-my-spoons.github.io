@@ -15,7 +15,7 @@ do
   file_name="${array[0]}"
 
   svn --force export "https://github.com/fork-my-spoons/${file_name}.spoon/trunk/README.md" "./spoons${folder_name}/${file_name}.md"
-  a=$(echo "$i" | tr "-" " ")
+  a=$(echo "$file_name" | tr "-" " ")
 
   sed -i "1s/^/---\nlayout: default\ntitle: $a\nnav_order: 2\n---\n/" ./spoons/"${file_name}".md
 done
