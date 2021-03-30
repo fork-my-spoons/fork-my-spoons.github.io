@@ -35,7 +35,7 @@ spoon['spotify-search-and-play']:setup({
   secret = '<your secret>'
 })
 spoon['spotify-search-and-play']:bindHotkeys({
-    show={{"alt"}, "S"}}
+    show={ {"alt"}, "S"}}
 )
 ```
 
