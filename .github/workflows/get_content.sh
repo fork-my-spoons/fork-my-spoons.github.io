@@ -17,5 +17,5 @@ do
   svn --force export "https://github.com/fork-my-spoons/${file_name}.spoon/trunk/README.md" "./spoons${folder_name}/${file_name}.md"
   a=$(echo "$file_name" | tr "-" " ")
 
-  sed -i "1s/^/---\nlayout: default\ntitle: $a\nnav_order: 2\n---\n/" ./spoons/"${file_name}".md
+  sed -i "1s/^/---\nlayout: default\ntitle: $a\nnav_order: 2\n---\n/" ./spoons"${folder_name}/${file_name}".md
 done
