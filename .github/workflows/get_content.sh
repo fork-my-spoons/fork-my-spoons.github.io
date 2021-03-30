@@ -2,7 +2,11 @@ declare -a arr=("people-in-space"
                 "jira-issues"
                 "github-activity"
                 "gitlab-merge-requests"
-                "take-a-break")
+                "take-a-break"
+                "spotify-mini-player"
+                "spotify-search-and-play"
+                "spotify-current-song"
+                )
 
 for i in "${arr[@]}"
 do
