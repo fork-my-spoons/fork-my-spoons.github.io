@@ -33,7 +33,7 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    width: 300px;
     min-width: $nav-width;
   }
 }
@@ -54,12 +54,12 @@
 .main-content {
   @include mq(md) {
     position: relative;
-    max-width: $content-width;
-    margin-left: $nav-width-md;
+//     max-width: $content-width;
+//     margin-left: $nav-width-md;
   }
 
   @include mq(lg) {
-    margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    margin-left: 300px;
   }
 }
 
