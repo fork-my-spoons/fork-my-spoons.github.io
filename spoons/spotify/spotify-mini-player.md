@@ -2,6 +2,7 @@
 layout: default
 title: spotify mini player
 nav_order: 2
+parent: Spotify
 ---
 # Spotify
 

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: spotify current song
-parent: spotify
 nav_order: 2
+parent: Spotify
 ---
 # Spotify Mini Player
 
