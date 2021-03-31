@@ -2,6 +2,7 @@
 layout: default
 title: spotify search and play
 nav_order: 2
+parent: spotify
 ---
 # Spotify Search and Play
 
