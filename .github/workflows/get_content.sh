@@ -7,8 +7,8 @@ declare -a arr=("people-in-space"
                 "spotify-search-and-play:/spotify:Spotify"
                 "spotify-current-song:/spotify:Spotify"
                 "github-activity:/github/GitHub"
-                "github-contributions/github/GitHub"
-                "github-trending-repos/github/GitHub"
+                "github-contributions:/github:GitHub"
+                "github-trending-repos:/github:GitHub"
                 )
 
 for i in "${arr[@]}"
