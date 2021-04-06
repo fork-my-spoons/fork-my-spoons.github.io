@@ -6,7 +6,7 @@ declare -a arr=("people-in-space"
                 "spotify-mini-player:/spotify:Spotify"
                 "spotify-search-and-play:/spotify:Spotify"
                 "spotify-current-song:/spotify:Spotify"
-                "github-activity:/github/GitHub"
+                "github-activity:/github:GitHub"
                 "github-contributions:/github:GitHub"
                 "github-trending-repos:/github:GitHub"
                 )
