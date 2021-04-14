@@ -5,13 +5,26 @@ nav_order: 2
 ---
 # Weather
 
+<p align="center">
+   <a href="https://github.com/fork-my-spoons/weather.spoon/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/fork-my-spoons/weather.spoon">
+  </a>
+  <a href="https://github.com/fork-my-spoons/weather.spoon/releases">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/fork-my-spoons/weather.spoon/total">
+  </a>
+  <a href="https://github.com/fork-my-spoons/weather.spoon/releases">
+   <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/fork-my-spoons/weather.spoon">
+  </a>
+</p>
+
 A menubar app which shows current weather for a given location:
 
-![screenshot](./screenshots/screenshot.png)
+<p align="center">
+  <img src="https://github.com/fork-my-spoons/weather.spoon/raw/main/screenshots/screenshot.png"/>
+  <img src="https://github.com/fork-my-spoons/weather.spoon/raw/main/screenshots/screenshot2.png"/>
+</p>
 
-![screenshot](./screenshots/screenshot2.png)
-
-Whem clicked, a menu with more detailed information is shown, it also includes the sunrise and sunset times.
+When clicked, a menu with more detailed information is shown, it also includes the sunrise and sunset times.
 
 # Installation
 
