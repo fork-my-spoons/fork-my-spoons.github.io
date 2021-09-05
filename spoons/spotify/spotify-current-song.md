@@ -4,18 +4,31 @@ title: spotify current song
 nav_order: 2
 parent: Spotify
 ---
-# Spotify Mini Player
+# Spotify Now Playing
+
+<p align="center">
+  <a href="https://github.com/fork-my-spoons/spotify-now-playing.spoon/actions">
+    <img alt="Build" src="https://github.com/fork-my-spoons/spotify-now-playing.spoon/workflows/release/badge.svg"/></a>
+  <a href="https://github.com/fork-my-spoons/spotify-now-playing.spoon/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/fork-my-spoons/spotify-now-playing.spoon"/></a>
+  <a href="https://github.com/fork-my-spoons/spotify-now-playing.spoon/releases">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/fork-my-spoons/spotify-now-playing.spoon/total"/></a>
+</p>
 
 A menu bar app which shows currently playing song on Spotify:
 
 Playing: 
 
-<img alt="screenshot" src="https://github.com/fork-my-spoons/spotify-current-song.spoon/raw/main/screenshots/screenshot.png">
-
+<p align="center">
+  <img alt="screenshot" src="https://github.com/fork-my-spoons/spotify-current-song.spoon/raw/main/screenshots/screenshot.png">
+</p>
+  
 Paused:
-
-<img alt="screenshot2" src="https://github.com/fork-my-spoons/spotify-current-song.spoon/raw/main/screenshots/screenshot2.png">
-
+  
+<p align="center">
+  <img alt="screenshot2" src="https://github.com/fork-my-spoons/spotify-current-song.spoon/raw/main/screenshots/screenshot2.png">
+</p>
+  
 Click on the bar toggles the playback. It is also possible to setup shortcuts to play next/previous track and toggle the playback - see below.
 
 # Installation
@@ -28,7 +41,7 @@ Click on the bar toggles the playback. It is also possible to setup shortcuts to
 
       ```brew install hammerspoon --cask```
 
- - download [spotify-current-song.spoon](https://github.com/fork-my-spoons/spotify-current-song.spoon/releases/latest/download/spotify-current-song.spoon.zip), unzip and double click on a .spoon file. It will be installed under `~/.hammerspoon/Spoons` folder.
+ - download [spotify-now-playing.spoon](https://github.com/fork-my-spoons/spotify-now-playing.spoon/releases/latest/download/spotify-now-playing.spoon.zip), unzip and double click on a .spoon file. It will be installed under `~/.hammerspoon/Spoons` folder.
  
  - open ~/.hammerspoon/init.lua and add the following snippet, adding your parameters:
 
