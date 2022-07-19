@@ -26,7 +26,7 @@ do
 
   if [ -z "$folder_name" ]
   then
-    sed -i "1s/^/---\nlayout: page\ntitle: $a\nnav_order: 2\n---\n/" ./spoons"${folder_name}/${file_name}".md
+    sed -i "1s/^/---\nlayout: page\ntitle: $a\nnav_order: 2\n---\n/" ./_spoons"${folder_name}/${file_name}".md
   else
     sed -i "1s/^/---\nlayout: page\ntitle: $a\nnav_order: 2\nparent: $title\n---\n/" ./spoons"${folder_name}/${file_name}".md
   fi
