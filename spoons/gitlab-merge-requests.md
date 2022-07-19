@@ -1,8 +1,3 @@
----
-layout: page
-title: gitlab merge requests
-nav_order: 2
----
 # GitLab Merge Requests
 
 <p align="center">

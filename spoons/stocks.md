@@ -1,8 +1,3 @@
----
-layout: page
-title: stocks
-nav_order: 2
----
 # Stocks
 
 <p align="center">

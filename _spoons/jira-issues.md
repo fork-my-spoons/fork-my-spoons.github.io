@@ -1,4 +1,9 @@
 ---
+layout: page
+title: jira issues
+nav_order: 2
+---
+---
 layout: default
 title: jira issues
 nav_order: 2

@@ -1,4 +1,9 @@
 ---
+layout: page
+title: take a break
+nav_order: 2
+---
+---
 layout: default
 title: take a break
 nav_order: 2

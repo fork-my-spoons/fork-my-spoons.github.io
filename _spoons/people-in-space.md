@@ -1,4 +1,9 @@
 ---
+layout: page
+title: people in space
+nav_order: 2
+---
+---
 layout: default
 title: people in space
 nav_order: 2

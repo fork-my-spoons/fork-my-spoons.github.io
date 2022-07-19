@@ -1,8 +1,3 @@
----
-layout: page
-title: jira issues
-nav_order: 2
----
 # Jira Menu Bar App
 
 <p align="center">

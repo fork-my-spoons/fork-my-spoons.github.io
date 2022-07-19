@@ -1,8 +1,3 @@
----
-layout: page
-title: people in space
-nav_order: 2
----
 # people in space
 
 <p align="center">

@@ -1,8 +1,3 @@
----
-layout: page
-title: take a break
-nav_order: 2
----
 # Take a break
 
 A simple menu bar app which sends a notification (or a popup alert) to take a break after a given time:

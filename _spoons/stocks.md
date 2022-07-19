@@ -1,4 +1,9 @@
 ---
+layout: page
+title: stocks
+nav_order: 2
+---
+---
 layout: default
 title: stocks
 nav_order: 2

@@ -1,8 +1,3 @@
----
-layout: page
-title: weather
-nav_order: 2
----
 # Weather
 
 <p align="center">

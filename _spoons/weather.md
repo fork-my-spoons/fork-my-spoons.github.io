@@ -1,4 +1,9 @@
 ---
+layout: page
+title: weather
+nav_order: 2
+---
+---
 layout: default
 title: weather
 nav_order: 2
