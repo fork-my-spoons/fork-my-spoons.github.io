@@ -35,7 +35,7 @@
                 <!-- <a class="collapsible-hxeader">Widgets</a> -->
                 <!-- <div class="collapsible-body"> -->
                     <ul>
-                        {% for widget in site.widgets %}
+                        {% for widget in site.spoons %}
                         <li class="tab col s2 sidenav-close">
                             <a class="tab" href="#{{ widget.title | replace: ' ', '-' | downcase }}">
                                 {{ widget.title | replace: 'Cpu', 'CPU' | replace: 'Ram', 'RAM' | replace: 'Fs', 'FS' | replace: 'Todo', 'ToDo'}}
