@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: github trending repos
 nav_order: 2
 parent: GitHub

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: github activity
 nav_order: 2
 parent: GitHub

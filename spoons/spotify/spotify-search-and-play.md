@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: spotify search and play
 nav_order: 2
 parent: Spotify

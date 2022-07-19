@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: people in space
 nav_order: 2
 ---

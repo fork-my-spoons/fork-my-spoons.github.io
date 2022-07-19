@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: jira issues
 nav_order: 2
 ---

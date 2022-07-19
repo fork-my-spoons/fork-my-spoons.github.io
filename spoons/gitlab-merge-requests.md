@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: gitlab merge requests
 nav_order: 2
 ---

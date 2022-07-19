@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: take a break
 nav_order: 2
 ---

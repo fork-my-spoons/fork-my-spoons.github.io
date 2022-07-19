@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: weather
 nav_order: 2
 ---
