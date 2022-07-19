@@ -2,13 +2,14 @@
 layout: page
 ---
 
-# MacOS menu bar apps
+## Getting started
 
-This is a project page of the github [organization](https://github.com/menubar-apps) which contains multiple MacOS application. Most of them are open-source so feel free to download them and boost your productivity!
+### [Hammerspoon](http://www.hammerspoon.org/)
 
-# Support
+>This is a tool for powerful automation of OS X. At its core, Hammerspoon is just a bridge between the operating system and a Lua scripting engine. What gives Hammerspoon its power is a set of extensions that expose specific pieces of system functionality, to the user.
+ 
+### [Spoon](https://github.com/Hammerspoon/hammerspoon/blob/master/SPOONS.md)
 
-If you find anything useful here, you can:
- - add a start to a repo inside the organization
- - or <a class="social-link" href="https://www.buymeacoffee.com/streetturtle"><img style="display:inline" src="https://img.shields.io/badge/-buy%20me%20a%20coffee-3B4252?style=flat&logo=Buy-Me-A-Coffee"></a>
- - or even become a [sponsor](https://github.com/sponsors/streetturtle)
+> Spoons are intended to be pure-Lua plugins for users to use in their Hammerspoon configs.
+  
+> As a community, we have created many great configurations for Hammerspoon, but sharing code between them is hard and fragile. Spoons have been created as a way to address these issues. Users should be able to download a Spoon and quickly integrate it into their config without worrying about what it is doing internally.
