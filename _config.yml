@@ -1,6 +1,6 @@
 collections:
   main:
-  widgets:
+  spoons:
 #    output: true
 
 markdown: kramdown
